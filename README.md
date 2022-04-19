@@ -9,4 +9,5 @@ Simple REST API for learning how to use Flask.
     * Install the requiremetns in your local environment by running `pip install -r requirements.txt`
 
 # References
-Based on [video tutorial](https://www.youtube.com/watch?v=GMppyAPbLYk&t=3922s) by [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
+* [Video playlist](https://www.youtube.com/playlist?list=PLMOobVGrchXN5tKYdyx-d2OwwgxJuqDVH) by [Pythonist](https://www.youtube.com/c/Pythonist)
+* [Video tutorial](https://www.youtube.com/watch?v=GMppyAPbLYk&t=3922s) by [Tech With Tim](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg)
