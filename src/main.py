@@ -1,18 +1,15 @@
 from flask import Flask
-#from flask_restful import Api, Resource
+from utilities import greet_name
 
 app = Flask(__name__)
-#api = Api(app)
-
-# class HelloWorld(Resource):
-#     def get(self):
-#         return {'data': 'Hello World'}
-
-# api.add_resource(HelloWorld, '/helloworld')
 
 @app.route('/helloworld')
 def index():
-    return {'data': 'Hello World'}
+    return {'Message': 'Hello World'}
+
+@app.route('/hello/<name>')
+def greet_with_name(name):
+    return {'Message': greet_name(name)}
 
 if __name__ == "__main__":
     app.run(debug=True)
